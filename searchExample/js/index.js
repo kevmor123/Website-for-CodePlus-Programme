@@ -1,0 +1,7 @@
+var input = document.getElementById("countries");
+var awesomplete = new Awesomplete(input, {
+  minChars: 1, 
+  autoFirst: true,
+  maxItems: 10
+});
+awesomplete.list = ['Abbeyville','Abbotstown','Adamstown','Aderrig','Aghafarrell','Allagour','Allenswood','Annaghaskin','Annefield','Annfield','Annsbrook','Ardgillan Demesne','Ardla','Argos','Artaine','Artaine','Artaine East','Artaine North','Artaine South','Artaine West','Ashfield','Ashtown','Aske','Astagob','Athgoe','Athgoe North','Athgoe South','Auburn','Aungierstown','Backstown','Backwestonpark','Badgerhill','Baggotrath','Baggotrath East','Baggotrath North','Baggotrath West','Balally','Balbriggan','Balbutcher','Balcarrick','Balcultry','Balcunnan','Balcurris','Baldongan','Baldonnell Little','Baldonnell Lower','Baldonnell Upper','Baldoyle','Baldrumman','Baldurgan','Baldwinstown','Balgaddy','Balgriffin','Balgriffin Park','Balheary','Balheary Demesne','Ballaghstown','Ballalease North','Ballalease South','Ballalease West','Balleally East','Balleally West','Ballinascorney Lower','Ballinascorney Upper','Ballinclea','Ballinteer','Ballisk','Ballisk Common','Ballough','Ballsbridge','Ballustree','Ballybane','Ballybane','Ballybetagh','Ballyboden','Ballyboggan North','Ballyboggan South'];

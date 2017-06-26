@@ -1,0 +1,63 @@
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:'Nixie One', cursive;
+	text-align: center;
+}
+
+input[type="text"],input[type="password"],input[type="email"]{
+	outline:none;
+	padding:10px;
+	display:block;
+	width:350px;
+	border-radius:4px;
+	border:2px solid #eee;
+	margin:20px auto;
+	text-align:center;
+	font-family:'Nixie One', cursive;
+}
+
+button[type="login"],button[type=bt]{
+	outline:none;
+	padding:10px;
+	color:#fff;
+	background:#561d66;
+	width:370px;
+	margin:20px auto;
+	margin-top: 0px;
+	border:0px;
+	border-radius:4px;
+	cursor:pointer;
+	text-align:center;
+	font-family:'Nixie One', cursive;
+}
+button[type="bt"]:hover{
+	background:#9621a5;
+}
+
+button[type="login"]:hover{
+	background:#9621a5;
+}
+
+input[type="button"]{
+	outline:none;
+	padding:10px;
+	color:#fff;
+	background:#561d66;
+	width:370px;
+	margin:20px auto;
+	margin-top: 0px;
+	border:0px;
+	border-radius:4px;
+	cursor:pointer;
+	text-align:center;
+	font-family:'Nixie One', cursive;
+ }
+
+input[type="button"]:hover{
+	background:#9621a5;
+}
+
+
+
